@@ -15,10 +15,11 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "some command to be run",
-    "test": "(eslint lib || true) && jest"
-  }
-  ,
+    "start": "react-scripts start",
+    "build": "set \"CI=false\" && react-scripts build",
+    "eject": "react-scripts eject",
+      "test": "(eslint lib || true) && jest"    
+   },
   "eslintConfig": {
     "extends": [
       "react-app",
